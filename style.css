@@ -1,7 +1,46 @@
-*{
-    background-color: blueviolet;
-}
-p.center{
-    
-
-}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .quote-container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #quote {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  #author {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  button, a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  button:hover, a:hover {
+    background-color: #0056b3;
+  }
+  
